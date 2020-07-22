@@ -48,7 +48,7 @@ function Facebook(accessToken, groupId)
             `# TIN TỨC ${date}\n` +
             '\n' +
             '## thông tin\n' +
-            '* Bài viết được tự động đăng lúc 07 giờ sáng hàng ngày\n');
+            '* Bài viết được tự động đăng lúc 07 giờ sáng, 10:45 trưa hàng ngày\n');
         formPublish.append('formatting', 'MARKDOWN');
 
         for (let i = 0; i < images.length ; i++) {
